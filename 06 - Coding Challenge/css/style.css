@@ -1,0 +1,81 @@
+/* Imposto lo sfondo di body e richiamo il font dichiarato in <head> impostando il colore bianco
+Purtroppo il font del progetto non e' disponibile su Google Fonts. Sarebbe stato "Expressa TS DemiBold"*/
+body{
+   background-image: url('../img/background.jpg');
+   background-size: 100%;
+   font-family: 'Comfortaa', sans-serif;
+   color: white;
+}
+
+/* Imposto main al centro dello schermo e gli applico uno sfondo */
+main{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 100px;
+  border-radius: 2.5%;
+  }
+
+/* Imposto il font del testo e gli assegno il colore verde*/
+header{
+  color: rgb(8,220,4);
+  text-align: center;
+  font-size: 34px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+/* Resize del logo all'interno di <header> */
+header > img {
+  height: 100px
+}
+
+/* Resize della barra di navigazione ed assegnazione del colore */
+nav {
+  background-color: rgb(8,220,4);
+  padding: 10px;
+  text-align: center;
+  width: 1000px;
+}
+
+/* Vado a rendere grassetto il font indicante il proprietario del monopattino */
+article > span {
+  font-weight: bold;
+}
+/* Spaziature varie*/
+article {
+  margin-top: 20px
+}
+
+article > div {
+  padding: 3px;
+}
+
+/* Vado ad inserire la freccia all'interno di ogni primo <div> filgio di <article> che trovo */
+article > div:first-of-type:before {
+  content: '\21A6 ';
+  font-size: 24px
+}
+/* Status batteria */
+.chargeBar{
+  height: 1.5em;
+  border-radius: 5px;
+}
+
+/* Status batteria indiduali*/
+#chargeOne {
+  background-color: rgb(255, 195, 77);
+  width: 400px
+}
+
+#chargeTwo {
+  background-color: rgb(8,220,4);
+  width: 600px
+}
+
+#chargeThree {
+  background-color: rgb(255, 77, 77);
+  width: 150px
+}
