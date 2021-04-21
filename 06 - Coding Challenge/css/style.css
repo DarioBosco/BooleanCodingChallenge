@@ -29,7 +29,7 @@ header{
 
 /* Resize del logo all'interno di <header> */
 header > img {
-  height: 100px
+  height: 100px;
 }
 
 /* Resize della barra di navigazione ed assegnazione del colore */
@@ -46,7 +46,7 @@ article > span {
 }
 /* Spaziature varie*/
 article {
-  margin-top: 20px
+  margin-top: 20px;
 }
 
 article > div {
@@ -56,7 +56,7 @@ article > div {
 /* Vado ad inserire la freccia all'interno di ogni primo <div> filgio di <article> che trovo */
 article > div:first-of-type:before {
   content: '\21A6 ';
-  font-size: 24px
+  font-size: 24px;
 }
 /* Status batteria */
 .chargeBar{
@@ -67,15 +67,15 @@ article > div:first-of-type:before {
 /* Status batteria indiduali*/
 #chargeOne {
   background-color: rgb(255, 195, 77);
-  width: 400px
+  width: 400px;
 }
 
 #chargeTwo {
   background-color: rgb(8,220,4);
-  width: 600px
+  width: 600px;
 }
 
 #chargeThree {
   background-color: rgb(255, 77, 77);
-  width: 150px
+  width: 150px;
 }
