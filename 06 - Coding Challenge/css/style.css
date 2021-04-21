@@ -1,6 +1,6 @@
 /* Imposto lo sfondo di body e richiamo il font dichiarato in <head> impostando il colore bianco
 Purtroppo il font del progetto non e' disponibile su Google Fonts. Sarebbe stato "Expressa TS DemiBold"*/
-body{
+body {
    background-image: url('../img/background.jpg');
    background-size: 100%;
    font-family: 'Comfortaa', sans-serif;
@@ -8,7 +8,7 @@ body{
 }
 
 /* Imposto main al centro dello schermo e gli applico uno sfondo */
-main{
+main {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -19,7 +19,7 @@ main{
   }
 
 /* Imposto il font del testo e gli assegno il colore verde*/
-header{
+header {
   color: rgb(8,220,4);
   text-align: center;
   font-size: 34px;
@@ -59,7 +59,7 @@ article > div:first-of-type:before {
   font-size: 24px;
 }
 /* Status batteria */
-.chargeBar{
+.chargeBar {
   height: 1.5em;
   border-radius: 5px;
 }
