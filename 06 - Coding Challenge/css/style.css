@@ -2,7 +2,7 @@
 Purtroppo il font del progetto non e' disponibile su Google Fonts. Sarebbe stato "Expressa TS DemiBold"*/
 body {
    background-image: url('../img/background.jpg');
-   background-size: 100%;
+   background-size: cover;
    font-family: 'Comfortaa', sans-serif;
    color: white;
 }
