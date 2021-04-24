@@ -67,16 +67,16 @@ article > div:first-of-type:before {
 
 /* Status batteria indiduali*/
 #chargeOne {
-  background-color: rgb(255, 195, 77);
+  background-color: rgb(245,180,83);
   width: 400px;
 }
 
 #chargeTwo {
-  background-color: rgb(8,220,4);
+  background-color: rgb(30,195,30);
   width: 600px;
 }
 
 #chargeThree {
-  background-color: rgb(255, 77, 77);
+  background-color: rgb(190,65,65);
   width: 150px;
 }
